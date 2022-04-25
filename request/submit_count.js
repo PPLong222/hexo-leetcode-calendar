@@ -1,11 +1,12 @@
 const superagent = require('superagent');
 
 class StampCountRequest {
-    constructor(){
+    url = 'https://leetcode-cn.com/api/user_submission_calendar/'
+
+    constructor() {
 
     }
 
-    url = 'https://leetcode-cn.com/api/user_submission_calendar/'
     request(userName) {
         return new Promise((resolve, reject) => {
             superagent
@@ -17,7 +18,7 @@ class StampCountRequest {
                 })
                 .catch((err) => {
                     console.log(err)
-                    if(err.state == 404) {
+                    if (err.state === 404) {
 
                     }
                     reject(err);
@@ -29,7 +30,7 @@ class StampCountRequest {
         return JSON.parse(data)
     }
 
-    
 
 }
+
 module.exports.StampCountRequest = StampCountRequest
