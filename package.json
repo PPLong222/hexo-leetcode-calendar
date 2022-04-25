@@ -1,0 +1,24 @@
+{
+  "name": "hexo-leetcode-calendar",
+  "version": "0.3.0",
+  "description": "Generate your own leetcode(only supproting leetcode-cn.com) submit calendar with customizable option ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "leetcode",
+    "calendar"
+],
+  "author": "pplong",
+  "license": "MIT",
+  "dependencies": {
+    "hexo-fs": "^3.1.0",
+    "superagent": "^5.3.1"
+  },
+  "repository":{
+    "type": "git",
+    "url" :"git@github.com:PPLong222/hexo-leetcode-calendar.git"
+  }
+}
