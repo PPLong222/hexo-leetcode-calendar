@@ -15,7 +15,7 @@ module.exports = {
             });
             callback(null, template);
         } catch (error) {
-            console.log("rendererror" + error);
+            console.log("Render err:" + error);
             callback(error, null);
         }
     },
