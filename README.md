@@ -68,7 +68,7 @@ leetcodecalendar: # ParentNode
 | subColors   | submit level color                                           |
 
 ## Update
-* v0.3.1 **!important**: 
+* v0.4.0 **!important**: 
   * update day box color showing error in calendar page
   * optimize js code
 ## Features
