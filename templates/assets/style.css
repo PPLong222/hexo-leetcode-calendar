@@ -1,37 +1,41 @@
-.panel{
+.panel {
     margin-top: 60px;
     border-radius: 10px;
     padding-top: 20px;
     padding-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-.leetcode-tips-container{
-  width: 180px;
-  height: 40px;
-  text-align: center;
-  background: rgba(0,0,0,0.8);
-  border-radius: 6px;
-  position: fixed;
-  display: none;
-  z-index: 999;  
-}
-.datasource{
-  color: #999a9c;
-  font-size: 12px;
-  margin-left: 20px;
-  flex: 1;
 
+.leetcode-tips-container {
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+    position: fixed;
+    display: none;
+    z-index: 999;
 }
-.leetcode-calendar-wall{
-  padding: 10px;
-  margin-top: 30px;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+.datasource {
+    color: #999a9c;
+    font-size: 12px;
+    margin-left: 20px;
+    flex: 1;
 }
-.leetcode-bottom-part{
-  display: none;
-  margin-top: 15px;
+
+.leetcode-calendar-wall {
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+
+.leetcode-bottom-part {
+    display: none;
+    margin-top: 15px;
+}
+
 .leetcode-annual-sub {
     flex: 1;
     padding: 10px;
@@ -40,91 +44,106 @@
     text-align: center;
     padding: 10px;
 }
+
 .leetcode-bottom-text {
     color: #626b72;
     font-size: 12px;
 }
-.leetcode-type{
+
+.leetcode-type {
     text-align: center;
     border-top: 1px solid;
     height: auto;
     flex: 2;
     padding: 4px 10px 0px 10px;
 }
-.leetcode-type-frame{
-  display: flex;
-  margin-top: 2px;
+
+.leetcode-type-frame {
+    display: flex;
+    margin-top: 2px;
 }
-.leetcode-annul-sub-text{
-  font-size: 28px;
+
+.leetcode-annul-sub-text {
+    font-size: 28px;
 }
-.leetcode-type-simple{
-  flex:1
+
+.leetcode-type-simple {
+    flex: 1
 }
-.leetcode-type-medium{
-  flex:1
+
+.leetcode-type-medium {
+    flex: 1
 }
-.leetcode-type-hard{
-  flex:1
+
+.leetcode-type-hard {
+    flex: 1
 }
-.leetcode-bottom-text{
+
+.leetcode-bottom-text {}
+
+.leetcode-sub-count-text {
+    font-size: 28px;
 }
-.leetcode-sub-count-text{
-  font-size: 28px;
+
+.leetcode-total-count-text {
+    font-size: 14px;
+    color: #535160;
 }
-.leetcode-total-count-text{
-  font-size: 14px;
-  color: #535160;
+
+.leetcode-type-text {
+    font-size: 18px;
+    font-family: sans-serif;
 }
-.leetcode-type-text{
-  font-size: 18px;
-  font-family:sans-serif;
-}
-.leetcode-text-simple{
+
+.leetcode-text-simple {
     color: #64d3bebf
 }
-.leetcode-text-medium{
+
+.leetcode-text-medium {
     color: #d9a73be0
 }
-.leetcode-text-hard{
+
+.leetcode-text-hard {
     color: #ef7053c2
 }
-.colorpanel{
-  flex: 1;
-  display: inline-block;
-  font-size: 14px;
-  color: #999a9c;
-  margin-right: 20px;
-  text-align: right;
+
+.colorpanel {
+    flex: 1;
+    display: inline-block;
+    font-size: 14px;
+    color: #999a9c;
+    margin-right: 20px;
+    text-align: right;
 }
-.datapanel{
-  float: left;
+
+.datapanel {
+    float: left;
 }
-.color-array li{
-  width: 10px;
-  height: 10px;
-  display: inline-block;
+
+.color-array li {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
 }
-.color-array{
-  list-style: none;
-  display: inline-block;
-  position: relative;
-  padding: 0;
-  margin: 0 5px;
+
+.color-array {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    margin: 0 5px;
 }
-.leetcode-contri-footer{
-  display: flex;
-  width: 100%;
-  height: 26px;
-  align-items: center;
+
+.leetcode-contri-footer {
+    display: flex;
+    width: 100%;
+    height: 26px;
+    align-items: center;
 }
 
 @font-face {
-  font-family: 'iconfont';  /* project id 3357837 */
-  src: url('');
-  src: url('?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_3357837_7jn8nu1mtoc.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_3357837_7jn8nu1mtoc.woff') format('woff'),
-  url('//at.alicdn.com/t/font_3357837_7jn8nu1mtoc.ttf') format('truetype'),
-  url('#iconfont') format('svg');
+    font-family: 'iconfont';
+    /* project id 3357837 */
+    src: url('');
+    src: url('?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_3357837_7jn8nu1mtoc.woff2') format('woff2'), url('//at.alicdn.com/t/font_3357837_7jn8nu1mtoc.woff') format('woff'), url('//at.alicdn.com/t/font_3357837_7jn8nu1mtoc.ttf') format('truetype'), url('#iconfont') format('svg');
 }

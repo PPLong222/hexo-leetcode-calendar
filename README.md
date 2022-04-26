@@ -1,11 +1,14 @@
 # Hexo-LeetCode-Calendar
 
 A Hexo plugin for quickly overviewing your leetcode submission data with customizable option to be imporved.(Only support [leetcode-cn.com](https://leetcode-cn.com))
-<div style="display: inline;">
-<img height="20" src="https://img.shields.io/badge/Build-Hexo-blue?logo=Hexo&style=flat&logoColor=3686F0&color=3686F0">
-<img height="20" src="https://img.shields.io/badge/Build-JavaScript-blue?logo=javascript&style=flat&logoColor=e1ea3d&color=f0a835">
-<img height="20" src="https://img.shields.io/badge/Publish-npm-blue?logo=npm&style=flat&logoColor=e1ea3d&color=f01822">
+<div style="display: inline-block;">
+    <a target="_blank" href="https://hexo.io/"><img height="20" src="https://img.shields.io/badge/Build-Hexo-blue?logo=Hexo&style=flat&logoColor=3686F0&color=3686F0"></a>
+	<img height="20" src="https://img.shields.io/badge/Build-JavaScript-blue?logo=javascript&style=flat&logoColor=e1ea3d&color=f0a835">
+	<a target="_blank" href="https://www.npmjs.com/package/hexo-leetcode-calendar"><img height="20" src="https://img.shields.io/badge/Publish-npm-blue?logo=npm&style=flat&logoColor=e1ea3d&color=f01822"></a>
+    <a target="_blank" href="https://github.com/PPLong222/hexo-leetcode-calendar">
+<img height="20" src="https://img.shields.io/badge/Repo-Github-blue?logo=github&style=flat&logoColor=5fa1e7&color=5fa1e7"></a>
 </div>
+
 中文介绍页面[PPLong--为你的Hexo博客添加LeetCode日历](http://www.pplong.top/2022/04/25/%E4%B8%BA%E4%BD%A0%E7%9A%84Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0LeetCode%E6%97%A5%E5%8E%86/)
 
 ## Introduce
@@ -15,8 +18,6 @@ Hexo-LeetCode-Calendar is a concise submission calendar for users registered on 
 **Example in PC**
 
 ![image-20220425194054775](https://s401177923-1302493622.cos.ap-nanjing.myqcloud.com/mdImages/image-20220425194054775.png)
-
-<img src="https://s401177923-1302493622.cos.ap-nanjing.myqcloud.com/mdImages/demostration.gif">
 
 ## Install 
 
@@ -38,6 +39,8 @@ And next, you can assert the calendar just simply insert :
 
 Then do : hexo clean && hexo g && hexo s , and you will see your own leetcode calendar in your own page.
 
+**Don't have a account in LeetCode-CN?**
+If you have a account based in leetcode.com instead of leetcode-cn.com, then you can follow tips below to transfer your data to leetcode-cn.com. And use the account in leetcode-cn.com to use this plugins.
 ### Customize
 
 ![image-20220425203816033](https://s401177923-1302493622.cos.ap-nanjing.myqcloud.com/mdImages/image-20220425203816033.png)
