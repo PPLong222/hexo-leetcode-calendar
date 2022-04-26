@@ -22,6 +22,9 @@
     for (key of Object.keys(objectMap)) {
         map.set(key * 1000, objectMap[key])
     }
+
+    removeAttribute()
+
     handle(map);
 
     function handle(data) {
@@ -203,5 +206,11 @@
                 document.getElementsByClassName("leetcode-bottom-part")[0].style.display = "flex"
             }
         }
+    }
+
+    function removeAttribute() {
+        document.getElementsByClassName('color-array')[0].removeAttribute('submit-gap')
+        document.getElementsByClassName('color-array')[0].removeAttribute('sub-colors')
+        document.getElementById('leetcode-sub-calendar').removeAttribute('stamp-param')
     }
 })()

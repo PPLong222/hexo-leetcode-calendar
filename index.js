@@ -13,7 +13,7 @@ var subColors = ['#ebedf0', '#bef5cb', '#85e89d', '#34d058', '#1c992f'];
 var submitGap = 5
 var bgColor = '#fff'
 var submitColor = '#000'
-var isIconShowed = "none"
+var isIconShowed = "block"
 
 var typeCountRequest = new TypeCountRequest();
 var stampCountRequest = new StampCountRequest();
@@ -28,7 +28,12 @@ function loadConfig() {
             subColors = leetcodecalendar.color.subColors ? leetcodecalendar.color.subColors : subColors
             submitColor = leetcodecalendar.color.submitColor ? leetcodecalendar.color.submitColor : submitColor
         }
-        isIconShowed = leetcodecalendar.showIcon ? "block" : isIconShowed
+        if (leetcodecalendar.showIcon != null) {
+            if (leetcodecalendar.showIcon)
+                isIconShowed = 'block'
+            else
+                isIconShowed = 'none'
+        }
         submitGap = leetcodecalendar.submitGap ? leetcodecalendar.submitGap : submitGap;
     }
     beforeGenParama = { bgColor, subColors, submitColor, isIconShowed, submitGap }

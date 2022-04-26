@@ -39,8 +39,8 @@
 .leetcode-annual-sub {
     flex: 1;
     padding: 10px;
-    border-top: 1px solid;
-    border-right: 1px solid;
+    border-top: 1px solid #a3a1a1;
+    border-right: 1px solid #a3a1a1;
     text-align: center;
     padding: 10px;
 }
@@ -52,7 +52,7 @@
 
 .leetcode-type {
     text-align: center;
-    border-top: 1px solid;
+    border-top: 1px solid #a3a1a1;
     height: auto;
     flex: 2;
     padding: 4px 10px 0px 10px;
